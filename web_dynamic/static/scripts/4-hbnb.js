@@ -55,4 +55,8 @@ $(function () {
       });
     },
   });
+
+  // Search Places
+  $(".filters button").bind("click", searchPlace);
+  searchPlace()
 });
